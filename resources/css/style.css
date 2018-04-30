@@ -1,0 +1,62 @@
+/* Universal Styling */
+
+html {
+  font-size: 18px;
+  font-family: helvetica;
+  line-height: 1.4;
+}
+
+.sitecontainer {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/* Header Styling */
+
+header {
+  height: 31rem;
+  background-image: url("../images/glasses-bg.png");
+  background-size: cover;
+}
+
+header .sitecontainer {
+  height: 30rem;
+}
+
+.navbar {
+  background-color: cadetblue;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: 1rem;
+}
+
+.navbarleft {
+  display: flex;
+  align-items: center;
+}
+
+.navbarleft img {
+  height: 1.5rem;
+  padding: 1rem 1rem 1rem 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  padding: 1rem 2rem 1rem 0;
+}
+
+.slogan {
+  background-color: white;
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: bold;
+  position: relative;
+  top: 11rem;
+  left: 2rem;
+  padding: 1.5rem  5rem;
+  float: right;
+}
