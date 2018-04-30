@@ -86,3 +86,28 @@ img.paper {
 img.ruler, img.truck {
   width: 5rem;
 }
+
+
+/* Information Division Styling */
+
+.information .sitecontainer {
+  display: flex;
+  justify-content: center;
+}
+
+.philosophyinfo, .appointmentsinfo {
+  width: 35%;
+  margin-right: 5%;
+}
+
+.philosophy, .appointments {
+  background-color: cadetblue;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 1.25rem;
+  width: 10rem;
+}
+
+.philosophyinfo p, .appointmentsinfo p {
+  margin-top: 1rem;
+}
