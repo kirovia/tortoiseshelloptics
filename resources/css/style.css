@@ -125,3 +125,34 @@ footer img {
   height: 1.5rem;
   margin: 4rem 1rem 4rem 4rem;
 }
+
+@media only screen and (max-width: 1024px) {
+  .sitecontainer {
+    width: 100%;
+  }
+
+  header {
+    height: 22rem;
+  }
+
+  .navbar {
+    position: static;
+  }
+
+  .slogan {
+    top: 6rem;
+    font-size: 1.33rem;
+    margin-right: 3rem;
+    padding: 0.75rem 4rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  header {
+    height: 17rem;
+  }
+
+  .display, nav {
+    display: none;
+  }
+}
